@@ -1,13 +1,6 @@
 import React, {Component} from 'react'
 import './Logo.css'
-import Home from '../MainMenu/Home/index'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-
+ 
 export default class Logo extends Component {
   render(){
       return(

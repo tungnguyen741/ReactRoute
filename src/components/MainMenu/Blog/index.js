@@ -1,21 +1,16 @@
 import React, {Component} from 'react'
 import './Blog.css'
-import Home from '../Home/index'
 import Blog1 from './Blog1'
 import {
     BrowserRouter as Router,
     Route,
-    Link,
-    Redirect
+    Link
   } from "react-router-dom";
   
 export default class Blog extends Component {
-    constructor(props){
-        super(props);
-    }
     render(){
-        var item = 4;
-        const data = this.props.data.slice(-item);
+        // var item = 4;
+        // const data = this.props.data.slice(-item);
         return(
         <Router>
             <div className="Blog"> 
@@ -47,7 +42,7 @@ export default class Blog extends Component {
                                 </div>
                                 </div>
                             </Link>
-                            <Route exact path={`${this.props.match.path}/${item.id}`} component={Blog1} />
+                            {/* <Route exact path={`${this.props.match.path}/${item.id}`} component={Blog1} /> */}
                              
                             </div>
                     )}

@@ -1,20 +1,12 @@
 import React, {Component} from 'react'
 import './Home.css'
-import Blog from '../Blog/index'
 import AboutMe from '../AboutMe/index'
 import {
     BrowserRouter as Router,
-    Switch,
     Route,
     Link
   } from "react-router-dom";
-function Hehe (){
-    return(
-        <div className="Hehe">
-            heheheheheeeeeeeee
-        </div>
-    );
-}
+ 
 export default class Home extends Component {
     constructor(props){
         super(props);
