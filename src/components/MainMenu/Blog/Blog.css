@@ -1,0 +1,19 @@
+.Blog{
+    text-align: center;
+}
+ 
+.blogItem img {
+    width: 100%;
+    height: 100%;
+}.Blog {
+    padding-top: 130px;
+}.wrap_blogItem {
+    display: flex;
+    overflow: hidden;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}

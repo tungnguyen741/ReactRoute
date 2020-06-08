@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+}
+ul.nav {
+    list-style: none;
+}ul.nav li {
+    display: inline-block;
+    margin-right: 30px;
+}ul.nav {
+    background: #000;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}ul.nav li a {
+    color: #FFF;
+    padding: 10px;
+    transition: color 0.5s;
+}
+ul.nav li a:hover{
+    color: #72C1BF;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}.logo {
+    float: left;
+    margin-right: auto;
+}
+.active{
+    color: #72C1BF !important;
+}
